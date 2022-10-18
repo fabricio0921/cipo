@@ -1,21 +1,88 @@
 
-
+body{
+    background-color: rgb(239, 255, 239);
+    align-items: center;
+    
+}
 header{
-    background: #BBBBBB;
-    padding: 20px 0;
-    height:  90px;
+    
+    background-image: linear-gradient(to bottom right, #c2e8f7, rgb(229, 238, 198));
+    
+    height:  150px;
 }
-.caixa{
-    position: relative;
-    width:940px;
-    margin: 0 auto;
+.img_logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 400px;
 }
+
 nav {
-    position: absolute;
-    top:10px;
-    right: 0;
+    border-width: 1px;
+    border-radius: 10px;
+    
+    
+    position:absolute;
+    top:90px;
+    right: 400px;
+    
 }
 nav li {
     display: inline-block;
-    margin: 0 0 0 15px;    
+    margin: 0 0 0 15px;
+    text-decoration: none;
+     
+}
+.box{
+    
+    width: 100%;
+    height: 700px;
+    background-color: rgb(243, 241, 241);
+}
+
+.section1{
+    
+  
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+h4{
+    margin-left: 10px;
+}
+footer{
+    width: 100%;
+    background: #c2e8f7;
+    
+    height:  150px;
+     
+    
+}
+small{
+    width: 100%;
+    margin-left: 45%;
+
+    
+}
+.section_banner{
+    
+    padding: 10px;
+    width: 100%;
+    height: 60%;
+    margin: auto;
+}
+.section_notice{
+    padding: 10px;
+    width: 100%;
+    height: 33%;
+    margin: auto;
+   overflow: scroll;
+}
+
+.img_banner_principal{
+    
+    
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
 }
