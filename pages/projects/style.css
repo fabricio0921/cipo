@@ -65,9 +65,22 @@ header, .navbar{
     width: 60%;
     height: 100%;
     margin: auto;
+    
+}
+.projects{
+    overflow: scroll;
+    padding: 10px;
+    height: 100%;
+    display: flex;
 }
 h4{
+    
     margin-left: 10px;
+    padding-top: 10px;
+}
+.imgProjects{
+    width: 300px;
+    height: 400px;
 }
 footer{
     width: 100%;

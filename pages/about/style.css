@@ -67,7 +67,9 @@ header, .navbar{
     margin: auto;
 }
 h4{
+    
     margin-left: 10px;
+    padding-top: 10px;
 }
 footer{
     width: 100%;
