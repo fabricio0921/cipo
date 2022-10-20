@@ -2,36 +2,56 @@
 body{
     background-color: rgb(239, 255, 239);
     align-items: center;
+    font-family: 'Roboto', sans-serif;
     
 }
-header{
+.row{
+    margin: 0;
+}
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: #444;
+}
+header, .navbar{
     
-    background-image: linear-gradient(to bottom right, #c2e8f7, rgb(229, 238, 198));
+    background-image: linear-gradient(to bottom right, #c2e8f7, rgb(226, 188, 91));
     
     height:  150px;
 }
-.img_logo{
-    width: 150px;
-    height: 150px;
-    margin-left: 400px;
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo{
+    max-width: 150px;
+   max-height: 149px;
 }
 
-nav {
-    border-width: 1px;
-    border-radius: 10px;
-    
-    
-    position:absolute;
-    top:90px;
-    right: 400px;
-    
+.navbar-brand {
+    padding: 0;
+    color: #fff;
 }
-nav li {
-    display: inline-block;
-    margin: 0 0 0 15px;
-    text-decoration: none;
-     
+.navbar-brand:hover{
+    color: #fff;
 }
+
+#navbar-links a{
+    color: rgb(14, 20, 36);
+
+
+}
+.nav-item{
+color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
 .box{
     
     width: 100%;
@@ -73,7 +93,7 @@ small{
 .section_notice{
     padding: 10px;
     width: 100%;
-    height: 33%;
+    height: 30%;
     margin: auto;
    overflow: scroll;
 }
